@@ -7,9 +7,13 @@
 
 // ---------------------------------
 // -- Paste your JWT sub here (GUID)
-var sub = 'bd126559-5fd4-8be0-61aa-ad574d41dcaf';
-//var sub = '';
+
+var sub = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbGllbnRpZCIsImlhdCI6MTU5ODU3NDUyOCwiZXhwIjoxNjMwMTEwNTMwLCJhdWQiOiJrbmVjdElRIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSJ9.5vV3EEyhcUJzJt_96n-cZnqWt4_8NtQ9USQl_Ur7W0o';
 // ---------------------------------
+
+
+ 
+
 
   if (sub!='') {
     // -- Simplified login with your JWT sub
@@ -17,7 +21,7 @@ var sub = 'bd126559-5fd4-8be0-61aa-ad574d41dcaf';
 
     // -- Create a space in <weavy/>, using sub here as key too - can be anything, but should be unique
     // -- This key is what you use to uniquely attach a space to any view within your app.
-    var weavySpace = weavy.space({ key: sub });
+    var weavySpace = weavy.space({ key: 'testing' });
 
     // -- Adding our features to the space (we call it apps), and injects them into the DOM (container)
     // -- All content now created (files, posts, tasks, etc) is now associated with this space 
