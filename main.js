@@ -1,17 +1,12 @@
-// ---------------------------------
-// -- Welcome to this mock up app where you can play around with <weavy/> - feel free to
-// -- take the code snippets into your own project.
-// ---------------------------------
-// -- Provide the JWT sub you see on this page or recevied in an email from us
-// ---------------------------------
 
-// ---------------------------------
-// -- Paste your JWT sub here (GUID)
+
+//client id = clientid
+//secret = clientsecret
 
 var sub = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbGllbnRpZCIsImlhdCI6MTU5ODU3NDUyOCwiZXhwIjoxNjMwMTEwNTMwLCJhdWQiOiJrbmVjdElRIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSJ9.5vV3EEyhcUJzJt_96n-cZnqWt4_8NtQ9USQl_Ur7W0o';
 // ---------------------------------
 
-
+// Weavy.defaults.url = "https://localhost:44323/";
  
 
 
